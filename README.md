@@ -28,6 +28,9 @@ to import the data and answer interesting questions about it by computing descri
  
 >>>>>>> 228b415 (Change)
 ### Files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 
