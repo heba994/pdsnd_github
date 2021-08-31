@@ -10,6 +10,9 @@ explore data related to bike share systems for three major cities in the United 
 to import the data and answer interesting questions about it by computing descriptive statistics.
  
 ### Files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 
