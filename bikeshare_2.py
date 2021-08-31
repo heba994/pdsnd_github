@@ -179,7 +179,8 @@ def user_stats(df, city):
         raw = input('\nWould you like to see some raw data? Enter yes or no.\n')
         if raw.lower() == 'yes':
             print(df[x:x+5])
-            x = x+5
+            x = x+5 #to show the next 5 lines 
+            
         else:
             break
 
