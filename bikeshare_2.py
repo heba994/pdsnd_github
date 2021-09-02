@@ -5,6 +5,8 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+month_filters = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+
 
 def get_filters():
     """
@@ -28,7 +30,7 @@ def get_filters():
     while True:    
         month = input("Do you want details specific to a particular month? If yes, type month name from within first six months else type 'all'")
         month = month.lower()
-        if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
+        if month in month_filters:
             break
         else:
             print("invalid input. Please enter a valid input")
